@@ -1,0 +1,215 @@
+.nav_two{
+    height: 270px
+}
+.img_web_site{
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    width: 100%;
+    height: 100%;
+    z-index: 0
+}
+.nav_two_content{
+    height: 48px;
+    box-shadow: 0 2px 10px -2px black;
+    background-color: transparent
+}
+.nav_two_content > div:first-child img{
+    width: 50px;
+    height: 50px;
+    cursor: pointer
+}
+.nav_two_content > div:first-child{
+    color: white
+}
+.nav_two_content > div:nth-child(2){
+    text-align: center;
+    color: white;
+    padding: 10px
+}
+.nav_two_content > div:last-child{
+    padding-top: 10px
+}
+.nav_two_content > div:last-child ul{
+    list-style: none;
+    padding: 0px
+} 
+.nav_two_content > div:last-child ul li{
+    display: inline-block;
+}
+.nav_two_content > div:last-child ul li img{
+    width: 25px;
+    height: 25px;
+    margin-left: 30px
+}
+.nav_two_desc{
+    color: white;
+    margin-top: 20px;
+    padding-left: 100px
+}
+.nav_two_desc h1{
+    font-size: 50px;
+    font-weight: bold;
+    text-decoration: underline
+}
+.page_body > div{
+    background-color: white;
+}
+.page_body_header{
+    min-height: 50px;
+    background-color: #f0f0f0;
+    border-bottom: #e4e4e4 2px solid;
+}
+.page_body_header .active{
+    background-color: #0056b3;
+    color: white
+}
+.page_body_header > div{
+    border-right: #dcdcdc 1px solid;
+    padding: 0px;
+    color: grey;
+    cursor: pointer;
+    text-align: center
+}
+.page_body_header img{
+    width: 50px;
+    height: 50px
+}
+#page_body_item_one{
+    height: 350px;
+    border-style: solid
+}
+.page_body_item_footer{
+    height: 50px;
+    background-color: #dcdcdc;
+    text-align: center;
+    color: grey;
+    text-decoration: underline;
+    cursor: pointer
+}
+.page_body_item_footer img{
+    width: 50px;
+    height: 100%;
+}
+.logo img{
+    width: 100%;
+    height: 60px;
+    margin-top: 15px
+}
+.nav_one{
+    margin-top: 20px;
+    min-height: 90px;
+    box-shadow: 0 2px 10px -2px black;
+}
+.search_header{
+    padding-top: 18px
+}
+.search_header{
+    font-weight: bold
+}
+.navbar-light .navbar-nav .nav-link{
+    font-weight: bold;
+}
+.navbar-light .navbar-nav .nav-link:hover{
+    border-bottom: red 2px solid
+}
+.navbar-light .navbar-brand{
+    color: red;
+    font-weight: bold;
+    border-bottom: red 2px solid
+}
+.menu_social_media ul{
+    padding: 0px;
+    list-style: none;
+    padding-top: 20px
+}
+.menu_social_media ul li{
+    width: 35px;
+    height: 35px;
+    display: inline-block
+}
+.menu_social_media ul li img{
+    width: 100%;
+    height: 100%;
+}
+.search_header_mobile{
+    display: none
+}
+.menu_categorie{
+    position: absolute;
+    top: 50px;
+    z-index: 8000;
+    width: 855px;
+    background-color: white;
+    border: #bfbfbf 1px solid;
+    border-radius: 5px;
+    list-style: none;
+    display: none
+}
+.menu_categorie_item{
+    display: inline-block;
+    width: 200px;
+    margin-right: 20px
+}
+.menu_categorie_item > strong{
+    color: red
+}
+.sub_menu_categorie{
+    list-style: circle;
+    padding-left : 15px
+}
+.sub_menu_categorie_item{
+    height: 50px;
+    color: black;
+    padding: 0px;
+    color: gray;
+    font-weight: bold
+}
+.menu_categorie_item > p{
+    width: 100%;
+    color: red;
+    font-weight: bold;
+    border-bottom: #bfbfbf 2px solid
+}
+@media(max-width: 500px){
+    .search_header{
+        display: none
+    }
+    .menu_social_media{
+        width: 100%
+    }
+    .search_header_mobile{
+        display: block;
+        margin-bottom: 20px
+    }
+    .nav_two_content > div:last-child ul li img{
+        margin-left: 0px
+    }
+    .nav_two{
+        height: 450px
+    }
+    .nav_two_desc{
+        padding-left: 1px;
+        margin-top: 250px;
+    }
+    .nav_two_desc > div{
+        padding: 0px;
+        text-align: left;
+    }
+    .nav_two_desc h1{
+        font-size: 25px
+    }
+    .page_body_header > div{
+        text-align: left;
+        border-bottom: #bfbfbf 2px solid;
+        margin-bottom: 10px;
+        padding-left: 20px
+    }
+    .menu_categorie{
+        width: 300px
+    }
+    .menu_categorie_item{
+        width: 100%;
+    }
+}
